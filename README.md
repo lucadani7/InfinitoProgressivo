@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌀 Infinito Progressivo Progetto
 
-## Getting Started
+Analisi computazionale e benchmark della successione di Fibonacci.
 
-First, run the development server:
+Un laboratorio digitale che confronta l'efficienza di diversi approcci algoritmici - da $O(2^n)$ a $O(\log n)$ - ottimizzato per gestire numeri di dimensioni arbitrarie tramite calcolo parallelo.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Caratteristiche Tecniche
+* **Web Workers**: Calcolo multi-threaded per mantenere l'interfaccia reattiva.
+* **BigInt Native**: Precisione assoluta per risultati con milioni di cifre.
+* **Grafici in Real-time**: Visualizzazione immediata delle prestazioni (ms).
+* **Persistenza**: Salvataggio automatico della sessione nel browser.
+* **Export**: Esportazione dei risultati in formato `.txt`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🧠 Algoritmi Implementati
+* **Matriciale / Fast Doubling**: $O(\log n)$ — Massima efficienza logaritmica.
+* **Iterativo / Memoizazzione**: $O(n)$ — Approccio lineare standard.
+* **Ricorsivo Naive**: $O(2^n)$ — Inserito per scopi didattici.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack
+* **Framework**: Next.js 15 (App Router)
+* **Linguaggio**: TypeScript
+* **Grafica**: Tailwind CSS & Recharts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Installazione
+1. Clona il repository:
+   ```bash
+     git clone https://github.com/lucadani7/InfinitoProgressivo
+     cd InfinitoProgressivo
+   ```
+2. Installa le dipendenze:
+    ```bash
+      npm install
+    ```
+3. Avvia in modalità sviluppo:
+    ```bash
+      npm run dev
+    ```
+4. Apri il tuo browser preferito all'indirizzo `http://localhost:3000`.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📜 Citazione
+> "Sed quoniam numerus numerus additur, et numerus ex additione procedit" — Leonardo Fibonacci, Liber Abaci (1202).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> "E poiché un numero viene aggiunto a un numero, un nuovo numero procede dall'addizione." — Leonardo Fibonacci, Liber Abaci (1202).
+
+---
+
+## 📄 Licenza
+
+Questo progetto è rilasciato sotto la licenza Apache-2.0.
